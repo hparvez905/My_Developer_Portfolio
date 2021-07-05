@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 60px;
 }
-span{
-    color: chocolate;
+h2{
+    font-size: 40px;
 }
-section{
+span{
+    color:brown;
+}
+.flexiable-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -45,5 +49,23 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat:no-repeat;
     background-position: right;
+
+}
+.heading{
+    padding-left: 5%;
+    
+}
+.last_half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    
+}
+.Last_part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
